@@ -15,6 +15,7 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "ava": "latest",
+    "conventional-changelog-cli": "^2.2.2",
     "eslint": "latest",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -40,7 +41,8 @@
     "dev": "nodemon -r dotenv/config --experimental-json-modules index.js",
     "start": "node --experimental-json-modules index.js",
     "lint": "eslint",
-    "test": "NODE_ENV=test ava"
+    "test": "NODE_ENV=test ava",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "husky": {
     "hooks": {
