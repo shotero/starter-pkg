@@ -2,7 +2,7 @@
   "name": "starter",
   "description": "my awesome project",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "author <author@gmail.com> (http://example.com)",
   "bugs": {
     "url": "https://github.com/example/starter/issues",
